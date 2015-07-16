@@ -32,11 +32,11 @@
 
 ;; ---------------------------------------------------------------------------------------
 
-(defproject         re-com "0.5.4"
+(defproject         org.clojars.stephen-charles/re-com "0.5.5-scb"
   :description      "Reusable UI components for Reagent"
-  :url              "https://github.com/Day8/re-com.git"
+  :url              "https://github.com/StephenCharles/re-com.git"
   :license          {:name "MIT"}
-
+  :signing          {:gpg "stephencharlesb@gmail.com"}
   :dependencies     [[org.clojure/clojure         "1.6.0"]
                      [org.clojure/clojurescript   "0.0-3169"]
                      [reagent                     "0.5.0"]
